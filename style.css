@@ -1,0 +1,178 @@
+body {
+ background-color:white;
+ width:900px;
+ margin: auto;
+}
+header {
+  margin: auto;
+  margin-top: 15px;
+}
+#Logo {
+  float: left;
+}
+
+h1 {
+  font-family: 'yellowtail',cursive;
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size:10px
+}
+
+ header ul {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+#six {
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+#two {
+  justify-content: space-between;
+}
+
+#mini {
+  height: 30px;
+}
+
+#borderdiv {
+  height:15px;
+  background-image: url("img/hr-img.png");
+  margin-top: 65px; 
+}
+
+#topArt{
+  margin-top: 40px;
+}
+
+#pizza {
+  width: 900px;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+h4 {
+  font-size: 15px;
+  color:lightgray
+}
+
+#print {
+  position: relative;
+  left: 836px;
+  bottom: 24px;
+}
+#printed {
+  position: relative;
+  left: 833px;
+  bottom: 8px;
+  font-size: 15px;
+}
+
+p{
+  color:gray;
+}
+
+#text, p {
+  margin-top: 20px;
+  text-indent: 20px;
+}
+
+#Checklist {
+  height: 300px;
+  margin-top: 30px;
+  background-image: url(img/list-bg.png);
+}
+
+#first {
+  position: relative;
+  left: 85px;
+  top: 40px;
+
+
+  /* flex-direction: column;
+  float: left; */
+}
+#first li {
+  line-height: 30px;
+  list-style: none;
+  font-size: 20px;
+  position: relative;
+
+  /* font-family: 'dekko'; */
+}
+
+#second li {
+  line-height: 30px;
+  list-style: none;
+  font-size: 20px;
+  position: relative;
+  left:500px;
+  bottom: 140px;
+
+  /* font-family: 'dekko'; */
+}
+
+label {
+  text-align: right;
+}
+
+input {
+  position: absolute;
+  left: -30px;
+}
+#van {
+  float:left;
+}
+#vanArt {
+  margin-top: 20px;
+}
+h5 {
+  position: relative;
+  left: 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#vanArt p {
+  margin-top: 8px;
+  color: black;
+  font-size: 18;
+}
+
+button {
+  position: relative;
+  left: 670px;
+  bottom: 35px;
+  width: 160px;
+  height: 60px;
+ color: white;
+ background-color: rgba(165, 77, 42, 0.781);
+ border: none;
+}
+
+#copy {
+  text-align: center;
+}
+
+h6 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgba(36, 35, 35, 0.438);
+}
+h7 {
+  color: rgba(36, 35, 35, 0.438);
+}
+
+#gSugar {
+  text-decoration: line-through;
+}
+#egg {
+  text-decoration: line-through;
+}
